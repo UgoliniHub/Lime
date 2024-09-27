@@ -1,0 +1,79 @@
+/*Immagine sfondo e font*/
+.background{
+    background: url(background.jpg);
+    background-size: cover;
+    font-family: "Fredoka", sans-serif;
+}
+.container{
+    width: 850px;
+    margin: auto;
+    padding-top: 100px;
+}
+.logo
+{
+    margin: auto;
+    display: block;
+    width: 150px;
+}
+/*Nomi monopattini*/
+h2{
+    color: white;
+}
+/*Titolo Principale*/
+h1{
+    text-align: center;
+    color:#32CD32;
+    font-family: "Open Sans", sans-serif;
+}
+.button{
+    background-color:#32CD32;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+/*Distanza Monopattini*/
+.metri{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    color: white;
+}
+h2{
+    display: inline;
+}
+/*Batteria a metá*/
+.batteria{    
+    width: 300px;
+    height: 25px;
+    background: orange;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+/*Batteria carica*/
+.batteria2{    
+    width: 600px;
+    height: 25px;
+    background: rgb(14, 158, 9);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+/*Batteria scarica*/
+.batteria3{    
+    width: 100px;
+    height: 25px;
+    background: rgb(230, 39, 14);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+/*Sfondo nero opaco*/
+.square {
+    background-color: black;
+    width: 1000px;
+    height: 650px;
+    opacity: 0.5;
+    position: absolute; 
+    z-index: -1;
+    display: inline;
+    border-radius: 10px;
+    margin: -50px;    
+}
